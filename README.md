@@ -9,15 +9,25 @@ CPU: Intel(R) Core(TM) i7-4770 CPU
 ## How to build
 * Copy this directory to <pin installation>/source/tools
 * Go to the pintool directory
+	```
 	$ cd <pin installation>/source/tools/PinRollbackTool 
+	```
 * Build the pintool
+	```
 	$ make
+	```
 
 ## How to clean
+	```	
 	$ make clean
+	```
 
 ## How to run
 * Go to the pin installation directory
+	```	
 	$ cd <pin installation>
+	```
 * Execute Pin with PinRollbackTool
+	```
 	$ ./pin -t source/tools/PinRollbackTool/obj-intel64/PinRollbackTool.so -n <number of speculatively executed instructions after which rollback should be triggered> -- <path to the program>
+	```
