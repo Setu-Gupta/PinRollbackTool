@@ -4,10 +4,11 @@ This tool demonstrates the use of the `PIN_ExecuteAt()` API. This tools forces t
 
 ## Testing Environment
 Pin verison: 3.28-98749-g6643ecee5-gcc-linux
+
 CPU: Intel(R) Core(TM) i7-4770 CPU
 
 ## How to build
-* Copy this directory to <pin installation>/source/tools
+* Copy this directory to `<pin installation>/source/tools`
 * Go to the pintool directory
 	```
 	$ cd <pin installation>/source/tools/PinRollbackTool 
