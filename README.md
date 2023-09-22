@@ -14,14 +14,10 @@ CPU: Intel(R) Core(TM) i7-4770 CPU
 	$ cd <pin installation>/source/tools/PinRollbackTool 
 	```
 * Build the pintool
-	```
 	$ make
-	```
 
 ## How to clean
-	```	
 	$ make clean
-	```
 
 ## How to run
 * Go to the pin installation directory
